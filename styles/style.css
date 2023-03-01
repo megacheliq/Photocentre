@@ -1,0 +1,660 @@
+/* СТИЛИ ДЛЯ ВСЕГО ДОКУМЕНТА */
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: #EDEDE9;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/* КОНЕЦ СТИЛЕЙ ДЛЯ ВСЕГО ДОКУМЕНТА */
+
+/* СТИЛИ ДЛЯ ЭКРАНА 1281-1920px */
+
+
+    .header__logo {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 16) + 16px);
+        margin: 3.7vh 0 0 4.5vh;
+        letter-spacing: 0.5vh;
+    }
+
+    .header__ul {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (22 - 14) + 14px);
+        margin: 3.85vh 0 0 7.65vh;
+        gap: 4.2vh;
+    }
+
+    .main__first__block {
+        display: flex;
+        margin-top: -6.4vh;
+    }
+
+    .main__first__block__container {
+        margin-top: 6.4vh;
+        width: 55.725%;
+        height: auto;
+    }
+
+    .main__first__block__image {
+        width: 44.275%;
+    }
+
+    .main__first__block__image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .first__block__title h1 {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (62 - 14) + 14px);
+    }
+
+    .first__block__title {
+        margin: 20% 0 0 7.2vh;
+    }
+
+    .first__block__text {
+        width: 80%;
+        margin: 7% 0 0 7.2vh;
+        line-height: 3.2vh;
+    }
+
+    .first__block__text p {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 16) + 16px);
+    }
+
+    .first__block__button__container {
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+    }
+
+    .first__block__button {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (32 - 16) + 16px);
+        padding: 2vh 4vh 2vh 4vh;
+        border-radius: 3vh;
+    }
+
+    .second__block__title h1 {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (42 - 24) + 18px);
+    }
+
+    .second__block__title {
+        margin: 5.4% 0 0 8vh;
+    }
+
+    .second__block__ul li {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (32 - 16) + 12px);
+    }
+
+    .second__block__ul {
+        margin: 1.5% 0 0 8vh;
+        gap: 5vh;
+    }
+
+    .second__block__images {
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 3%;
+    }
+
+    .second__block__grid {
+        grid-template-areas: 
+        "A  B"
+        "A  B"
+        "A  B"
+        "A  B"
+        "A  C";
+        gap: 12%;
+        margin-left: -7%;
+        margin-right: 3.5%;
+    }
+
+    .second__block__pic1 {
+        grid-area: A;
+        width: 107%;
+    }
+
+    .second__block__pic1 img {
+        width: 110%;
+        height: auto;
+    }
+
+    .second__block__pic2 {
+        grid-area: B;
+        width: 112.5%;
+
+    }
+
+    .second__block__pic2 img {
+        width: 110%;
+        height: auto;
+    }
+
+    .second__block__pic3 {
+        grid-area: C;
+        width: 122%;
+        margin-top: -94.5%;
+    }
+
+    .second__block__pic3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main__third__block {
+        margin-top: 10%;
+    }
+
+    .third__block__grid {
+        grid-template-areas: 
+        "A B";
+    }
+
+    .third__block__images {
+        grid-area: A;
+    }
+
+    .third__block__form {
+        grid-area: B;
+    }
+
+    .third__block__images {
+        width: 110%;
+    }
+
+    .third__block__image {
+        width: 113%;
+        margin-left: 8%;
+    }
+
+    .third__block__image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .third__block__order {
+        width: 100%;
+        margin-left: 30%;
+    }
+
+    .third__block__title {
+        margin-top: -1.5%;
+        width: 60%
+    }
+
+    .third__block__title h1 {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (64 - 16) + 16px);
+    }
+
+    .third__block__text {
+        width: 53%;
+        margin-top: 1%;
+    }
+
+    .third__block__text p {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 16) + 16px);
+    }
+
+    .third__block__form input {
+        margin-top: 3%;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (20 - 12) + 12px);
+    }
+
+    .third__block__form select {
+        margin-top: 3%;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (20 - 12) + 12px);
+    }
+
+    .third__block__form textarea {
+        margin-top: 3%;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (20 - 12) + 12px);
+    }
+
+    .third__block__form button {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 8) + 8px);
+        padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+        border-radius: 1.5vh;
+    }
+    
+    .form__button__container {
+        margin: 3% 0 0 13%;
+    }
+
+    .main__fourth__block {
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+        margin-bottom: 8%;
+    }
+
+    .main__fourth__block__container {
+        width: 80%;
+    }
+
+    .fourth__block__title h1 {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (58 - 12) + 12px);
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .fourth__block__text {
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+    }
+    
+    .fourth__block__text p {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (22 - 8) + 8px);
+        text-align: center;
+        width: 60%;
+    }
+
+    .fourth__block__mail__form {
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        
+    }
+
+    .fourth__block__mail__form input {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (20 - 12) + 12px);
+    }
+
+    .fourth__block__mail__form button {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (20 - 12) + 12px);
+    }
+
+
+
+    
+    
+
+
+/* КОНЕЦ СТИЛЕЙ ДЛЯ ЭКРАНА 1281-1920px */
+
+/* СТИЛИ ДЛЯ ЭКРАНА 721-1280px */
+
+@media all and (max-width: 1280px) {
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 4%;
+        margin-top: 1%;
+        margin-bottom: 0.5%;
+        
+    }
+
+    .main__first__block {
+        display: grid;
+        grid-template-areas: 
+        "A"
+        "B";
+    }
+
+    .main__first__block__image {
+        margin-top: 10%;
+        grid-area: A;
+        width: 100%;
+    }
+
+    .main__first__block__container {
+        width: 100%;
+    }
+
+    .first__block__title h1 {
+        margin-left: -8%;
+        margin-top: -24%;
+        text-align: center;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (52 - 24) + 24px);
+    }
+
+    .first__block__text {
+        margin-top: 2%;
+        margin-left: 9%;
+        text-align: center;
+    }
+
+    .first__block__button {
+        margin-top: -2%;
+    }
+
+}
+
+/* КОНЕЦ СТИЛЕЙ ДЛЯ ЭКРАНА 721-1280px */
+
+/* СТИЛИ ДЛЯ ЭКРАНА хх-720px */
+
+@media all and (max-width: 720px) {
+    .header__container {
+        margin-top: -2.5%;
+        margin-bottom: 2%;
+    }
+
+    .second__block__title {
+        margin-left: 4%;
+    }
+
+    .second__block__ul {
+        margin-left: 4%;
+    }
+
+    .second__block__title h1 {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (50 - 14) + 14px);
+    }
+
+    .second__block__ul li {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (26 - 16) + 12px);
+    }
+
+    .third__block__title h1 {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (50 - 14) + 14px);
+    }
+
+    .third__block__text p {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (16 - 10) + 10px);
+    }
+
+    .third__block__form input {
+        margin-top: 3%;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (18 - 12) + 12px);
+    }
+
+    .third__block__form select {
+        margin-top: 3%;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (18 - 12) + 12px);
+    }
+
+    .third__block__form textarea {
+        margin-top: 3%;
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (16 - 10) + 10px);
+    }
+
+    .third__block__form button {
+        font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 12) + 12px);
+        padding: 1.5vh 2.5vh 1.5vh 2.5vh;
+        border-radius: 1.5vh;
+        margin-left: -7%;
+    }
+}
+
+/* КОНЕЦ СТИЛЕЙ ДЛЯ ЭКРАНА хх-720px */
+
+/* ОБЩИЕ СТИЛИ ДОКУМЕНТА */
+
+input, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__logo {
+    font-family: 'BodoniBK';
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.header__ul {
+    font-family: 'RobotoM';
+    display: flex;
+}
+
+.header__ul li a {
+    color: #383737;
+}
+
+.header__ul li :hover {
+    color: #777777;
+}
+
+.header__ul li :active {
+    color: #b3aeae;
+}
+
+
+.first__block__title h1 {
+    font-family: 'PlayFairDisplay';
+    font-weight: 400;
+}
+
+.first__block__text p {
+    font-family: 'RobotoM';
+    color: #383737;
+}
+
+.first__block__button {
+    font-family: 'RobotoM';
+    color: #383737;
+    background: #D5BDAF; 
+}
+
+.first__block__button:hover {
+    color: black;
+    background: #b6a196;
+    cursor: pointer; 
+}
+
+.first__block__button:active {
+    background: #b39788;
+}
+
+.main__second__block {
+    font-family: 'RobotoM';
+    color: #383737;
+}
+
+.second__block__ul {
+    display: flex;
+}
+
+.second__block__ul li a {
+    color: #8D8B8B;
+}
+
+.second__block__ul li span a {
+    color: #383737;
+}
+
+.second__block__ul li a:hover {
+    color: #777777;
+}
+
+.second__block__ul li a:active {
+    color: #b3aeae;
+}
+
+.second__block__grid {
+    display: grid;
+}
+
+.third__block__grid {
+    display: grid;
+}
+
+
+.third__block__title h1 {
+    font-family: 'PlayFairDisplay';
+    font-weight: 400;
+}
+
+.third__block__text p {
+    font-family: 'RobotoM';
+    color: #383737;
+}
+
+.third__block__form input {
+    background: #C6C3C3;
+    font-family: 'RobotoM';
+    width: 47%;
+    padding: 1.5% 0 1.5% 2%;
+    border-radius: 1vh;
+    color: #4E4D4D;
+}
+
+.third__block__form select {
+    background: #C6C3C3;
+    font-family: 'RobotoM';
+    width: 49%;
+    padding: 1.5% 0 1.5% 2%;
+    border-radius: 1vh;
+    color: #4E4D4D;
+}
+
+.third__block__form textarea {
+    background: #C6C3C3;
+    font-family: 'RobotoM';
+    width: 47%;
+    padding: 1.5% 0 1.5% 2%;
+    border-radius: 1vh;
+    color: #4E4D4D;
+}
+
+.third__block__form button {
+    font-family: 'RobotoM';
+    color: #383737;
+    background: #D5BDAF; 
+}
+
+.third__block__form button:hover {
+    color: black;
+    background: #b6a196;
+    cursor: pointer; 
+}
+
+.third__block__form button:active {
+    background: #b39788;
+}
+
+.main__fourth__block__container {
+    background: #EAE0D7;
+}
+
+.fourth__block__title h1 {
+    font-family: 'PlayFairDisplay';
+    font-weight: 400;
+}
+
+.fourth__block__text p {
+    font-family: 'RobotoM';
+    color: #383737;
+}
+
+.fourth__block__mail__form input {
+    background: #C6C3C3;
+    font-family: 'RobotoM';
+    width: 55%;
+    padding: 1% 0 1% 2%;
+    border-radius: 1vh;
+    color: #4E4D4D;
+}
+
+.fourth__block__mail__form button {
+    font-family: 'RobotoM';
+    color: #383737;
+    background: #D5BDAF;
+    padding: 1% 1.5% 1% 1.5%;
+    border-radius: 1vh;
+    margin-left: -8%;
+}
+
+.fourth__block__mail__form button:hover {
+    color: black;
+    background: #b6a196;
+    cursor: pointer; 
+}
+
+.fourth__block__mail__form button:active {
+    background: #b39788;
+}
+
+.footer {
+    background: #D5BDAF;
+}
+
+.footer__flex {
+    display: flex;
+}
+
+.footer__logo {
+    font-family: 'BodoniBK';
+    text-transform: uppercase;
+    user-select: none;
+    font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 12) + 12px);
+    letter-spacing: 0.5vh;
+}
+
+.footer__container {
+    margin: 0 0 0 5%;
+    padding-top: 3%;
+}
+
+.footer__ul {
+    margin-left: 8%;
+}
+
+.footer__ul li {
+    margin-top: 10%;
+    font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 8) + 8px)
+}
+
+.footer__ul li a {
+    font-family: 'RobotoM';
+    color: #383737;
+}
+
+.footer__ul li a:hover {
+    color: #777777;
+}
+
+.footer__ul li a:active {
+    color: #b3aeae;
+}
+
+.footer__copyright {
+    margin-top: 5%;
+    padding-bottom: 2%;
+    margin-left: -4%;
+    display: flex;
+    justify-content: center;
+    font-family: 'RobotoM';
+    color: #8B8888;
+    font-size: calc( (100vw - 480px)/(1920 - 480) * (24 - 8) + 8px)
+}
+
+.news__block {
+    font-family: 'RobotoM';
+    margin: 4% 0 0 5%;
+}
+
+.news__block__container {
+    width: 60%;
+    
+}
+
+.news__flex {
+    display: flex;
+    margin-top: 4%;
+}
+
+.news__block__right img{
+    width: 140%;
+    height: auto;
+    margin-left: 3%;
+}
+
+/* КОНЕЦ ОБЩИХ СТИЛЕЙ */

@@ -1,0 +1,16 @@
+/* Здесь я подключаю шрифты */
+
+@font-face {
+    font-family: 'BodoniBK';
+    src: url(../fonts/BodonBk.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoM';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'PlayFairDisplay';
+    src: url(../fonts/PlayfairDisplaySC-Bold.ttf);
+}
